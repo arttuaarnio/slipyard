@@ -1,0 +1,12 @@
+{
+  "name": "slipyard",
+  "description": "Slipyard: a multi-agent feature pipeline for Claude Code",
+  "owner": { "name": "Arttu Aarnio", "url": "https://github.com/arttuaarnio" },
+  "plugins": [
+    {
+      "name": "slipyard",
+      "source": "./",
+      "description": "Run a feature through spec, plan, build, verify, review, human review and ship"
+    }
+  ]
+}

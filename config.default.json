@@ -1,0 +1,23 @@
+{
+  "gates": {
+    "spec": true,
+    "plan": true,
+    "humanReview": true,
+    "ship": true
+  },
+  "maxReviewRounds": 2,
+  "addonReviewers": [],
+  "agents": {
+    "planner": { "model": "opus", "effort": "high" },
+    "builder": { "model": "sonnet", "effort": "medium" },
+    "reviewer": { "model": "sonnet", "effort": "high" }
+  },
+  "skills": {
+    "spec": [],
+    "plan": [],
+    "build": [],
+    "review": [],
+    "ship": []
+  },
+  "verify": []
+}

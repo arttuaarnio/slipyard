@@ -1,0 +1,11 @@
+{
+  "name": "slipyard",
+  "displayName": "Slipyard",
+  "version": "0.1.0",
+  "description": "Run a feature through a multi-agent pipeline: spec, plan, build, verify, review, human review, ship",
+  "author": { "name": "Arttu Aarnio", "url": "https://github.com/arttuaarnio" },
+  "homepage": "https://github.com/arttuaarnio/slipyard",
+  "repository": "https://github.com/arttuaarnio/slipyard",
+  "license": "MIT",
+  "keywords": ["agents", "pipeline", "workflow", "code-review", "planning"]
+}
