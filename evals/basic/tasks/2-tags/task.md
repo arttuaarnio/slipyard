@@ -1,0 +1,1 @@
+Add tag filtering to the list command: `python3 -m bookmarks list --tag TAG` shows only bookmarks that have that tag, in the normal list format. Tag matching ignores case. --tag can be given more than once; then a bookmark must have all of the given tags. If nothing matches, print nothing and exit 0. Without --tag, list shows everything as it does now.

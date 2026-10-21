@@ -1,0 +1,1 @@
+Add a --json flag to the list command: `python3 -m bookmarks list --json` prints all bookmarks as one JSON array of objects with exactly the keys id, url, title and tags, in id order, and nothing else on stdout. With no bookmarks it prints `[]`. Without --json the output stays exactly as it is now.

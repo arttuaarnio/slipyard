@@ -1,6 +1,6 @@
 ---
 name: reviewer
-description: Slipyard reviewer. Reviews a change set from one focus - correctness, security, tests, ui or performance - and returns evidence-based findings with file:line and severity. Read-only.
+description: Slipyard reviewer. Reviews a change set from one focus - correctness, security, tests, ui or performance - and returns evidence-based findings with file:line and severity. Read-only. Used only by Slipyard's /slipyard:build and /slipyard:review; don't use it directly.
 tools: Read, Grep, Glob, Skill
 model: sonnet
 effort: high

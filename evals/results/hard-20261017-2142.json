@@ -1,0 +1,162 @@
+[
+  {
+    "suite": "hard",
+    "task": "1-report",
+    "arm": "plain",
+    "model": "sonnet",
+    "seconds": 20,
+    "cost_usd": 0.1393629,
+    "turns": 13,
+    "error": false,
+    "hidden": [
+      7,
+      7
+    ],
+    "existing_ok": true,
+    "lines_changed": 33
+  },
+  {
+    "suite": "hard",
+    "task": "1-report",
+    "arm": "slipyard",
+    "model": "sonnet",
+    "seconds": 93,
+    "cost_usd": 0.6261452,
+    "turns": 12,
+    "error": false,
+    "hidden": [
+      7,
+      7
+    ],
+    "existing_ok": true,
+    "lines_changed": 50
+  },
+  {
+    "suite": "hard",
+    "task": "2-safe-save",
+    "arm": "plain",
+    "model": "sonnet",
+    "seconds": 18,
+    "cost_usd": 0.1257874,
+    "turns": 8,
+    "error": false,
+    "hidden": [
+      4,
+      4
+    ],
+    "existing_ok": true,
+    "lines_changed": 19
+  },
+  {
+    "suite": "hard",
+    "task": "2-safe-save",
+    "arm": "slipyard",
+    "model": "sonnet",
+    "seconds": 134,
+    "cost_usd": 0.8314937000000001,
+    "turns": 16,
+    "error": false,
+    "hidden": [
+      4,
+      4
+    ],
+    "existing_ok": true,
+    "lines_changed": 107
+  },
+  {
+    "suite": "hard",
+    "task": "3-export",
+    "arm": "plain",
+    "model": "sonnet",
+    "seconds": 23,
+    "cost_usd": 0.14099710000000001,
+    "turns": 12,
+    "error": false,
+    "hidden": [
+      5,
+      5
+    ],
+    "existing_ok": true,
+    "lines_changed": 32
+  },
+  {
+    "suite": "hard",
+    "task": "3-export",
+    "arm": "slipyard",
+    "model": "sonnet",
+    "seconds": 106,
+    "cost_usd": 0.6572525,
+    "turns": 12,
+    "error": false,
+    "hidden": [
+      5,
+      5
+    ],
+    "existing_ok": true,
+    "lines_changed": 76
+  },
+  {
+    "suite": "hard",
+    "task": "4-currencies",
+    "arm": "plain",
+    "model": "sonnet",
+    "seconds": 29,
+    "cost_usd": 0.15936789999999998,
+    "turns": 11,
+    "error": false,
+    "hidden": [
+      6,
+      6
+    ],
+    "existing_ok": true,
+    "lines_changed": 42
+  },
+  {
+    "suite": "hard",
+    "task": "4-currencies",
+    "arm": "slipyard",
+    "model": "sonnet",
+    "seconds": 181,
+    "cost_usd": 1.1056605999999995,
+    "turns": 17,
+    "error": true,
+    "hidden": [
+      6,
+      6
+    ],
+    "existing_ok": true,
+    "lines_changed": 71
+  },
+  {
+    "suite": "hard",
+    "task": "5-dup-import",
+    "arm": "plain",
+    "model": "sonnet",
+    "seconds": 26,
+    "cost_usd": 0.14730730000000003,
+    "turns": 12,
+    "error": false,
+    "hidden": [
+      5,
+      5
+    ],
+    "existing_ok": true,
+    "lines_changed": 32
+  },
+  {
+    "suite": "hard",
+    "task": "5-dup-import",
+    "arm": "slipyard",
+    "model": "sonnet",
+    "seconds": 146,
+    "cost_usd": 0.8856511999999999,
+    "turns": 16,
+    "error": false,
+    "hidden": [
+      5,
+      5
+    ],
+    "existing_ok": true,
+    "lines_changed": 35
+  }
+]

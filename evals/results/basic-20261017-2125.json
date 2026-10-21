@@ -1,0 +1,152 @@
+[
+  {
+    "task": "1-json",
+    "arm": "plain",
+    "model": "sonnet",
+    "seconds": 17,
+    "cost_usd": 0.1177788,
+    "turns": 8,
+    "error": false,
+    "hidden": [
+      5,
+      5
+    ],
+    "existing_ok": true,
+    "lines_changed": 14
+  },
+  {
+    "task": "1-json",
+    "arm": "slipyard",
+    "model": "sonnet",
+    "seconds": 69,
+    "cost_usd": 0.5192639,
+    "turns": 10,
+    "error": false,
+    "hidden": [
+      5,
+      5
+    ],
+    "existing_ok": true,
+    "lines_changed": 41
+  },
+  {
+    "task": "2-tags",
+    "arm": "plain",
+    "model": "sonnet",
+    "seconds": 16,
+    "cost_usd": 0.1202536,
+    "turns": 9,
+    "error": false,
+    "hidden": [
+      6,
+      6
+    ],
+    "existing_ok": true,
+    "lines_changed": 21
+  },
+  {
+    "task": "2-tags",
+    "arm": "slipyard",
+    "model": "sonnet",
+    "seconds": 84,
+    "cost_usd": 0.5266852,
+    "turns": 10,
+    "error": false,
+    "hidden": [
+      6,
+      6
+    ],
+    "existing_ok": true,
+    "lines_changed": 43
+  },
+  {
+    "task": "3-delete",
+    "arm": "plain",
+    "model": "sonnet",
+    "seconds": 20,
+    "cost_usd": 0.1314921,
+    "turns": 7,
+    "error": false,
+    "hidden": [
+      5,
+      5
+    ],
+    "existing_ok": true,
+    "lines_changed": 59
+  },
+  {
+    "task": "3-delete",
+    "arm": "slipyard",
+    "model": "sonnet",
+    "seconds": 111,
+    "cost_usd": 0.7096596000000003,
+    "turns": 12,
+    "error": false,
+    "hidden": [
+      5,
+      5
+    ],
+    "existing_ok": true,
+    "lines_changed": 111
+  },
+  {
+    "task": "4-import",
+    "arm": "plain",
+    "model": "sonnet",
+    "seconds": 24,
+    "cost_usd": 0.13976780000000003,
+    "turns": 11,
+    "error": false,
+    "hidden": [
+      5,
+      5
+    ],
+    "existing_ok": true,
+    "lines_changed": 52
+  },
+  {
+    "task": "4-import",
+    "arm": "slipyard",
+    "model": "sonnet",
+    "seconds": 98,
+    "cost_usd": 0.5834682000000001,
+    "turns": 11,
+    "error": false,
+    "hidden": [
+      5,
+      5
+    ],
+    "existing_ok": true,
+    "lines_changed": 82
+  },
+  {
+    "task": "5-paging",
+    "arm": "plain",
+    "model": "sonnet",
+    "seconds": 21,
+    "cost_usd": 0.1369757,
+    "turns": 11,
+    "error": false,
+    "hidden": [
+      6,
+      6
+    ],
+    "existing_ok": true,
+    "lines_changed": 36
+  },
+  {
+    "task": "5-paging",
+    "arm": "slipyard",
+    "model": "sonnet",
+    "seconds": 137,
+    "cost_usd": 0.7584157999999998,
+    "turns": 18,
+    "error": false,
+    "hidden": [
+      6,
+      6
+    ],
+    "existing_ok": true,
+    "lines_changed": 64
+  }
+]

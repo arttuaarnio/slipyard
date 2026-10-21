@@ -6,7 +6,7 @@
     {
       "name": "slipyard",
       "source": "./",
-      "description": "Run a feature through spec, plan, build, verify, review, human review and ship"
+      "description": "Run a feature through spec, plan, build, verify, review and ship"
     }
   ]
 }
