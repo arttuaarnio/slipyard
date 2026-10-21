@@ -56,7 +56,7 @@ Same tasks, same model (Sonnet), plain Claude Code against Slipyard, scored on h
 | Hard: 5 vague requests with hidden edge cases | Plain Claude Code | 27/27 | 0 | 2 min | $0.71 |
 | | Slipyard (`--auto`) | 27/27 | 0 | 11 min | $4.11 |
 
-The hard suite checks what a careful engineer handles unasked: crash-safe saving, path traversal and CSV injection, old data files still loading, exact money maths. Plain Claude Code (Sonnet) got all of it right, and so did Slipyard, at about 6× the cost and time. So Slipyard does not make features more correct on small tasks like these. What it adds is process: an agreed spec before any code, independent reviews, more tests (about twice the lines changed), a record of every decision, and your approval before the commit. Whether that is worth the cost is your call; for small, clear changes it usually isn't.
+The hard suite checks what a careful engineer handles unasked: crash-safe saving, path traversal and CSV injection, old data files still loading, exact money maths. Plain Claude Code (Sonnet) got all of it right, and so did Slipyard, at about 6× the cost and time on this suite, and about 5× across all 10 tasks. So Slipyard does not make features more correct on small tasks like these. What it adds is process: an agreed spec before any code, independent reviews, more tests (about twice the lines changed), a record of every decision, and your approval before the commit. Whether that is worth the cost is your call; for small, clear changes it usually isn't.
 
 ## Make it yours
 
